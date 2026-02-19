@@ -1,0 +1,27 @@
+
+✓ main Lint Code · 22169850865
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Lint JavaScript Files in 10s (ID 64105200258)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Install Node.js
+  ✓ Install JSHint
+  ✓ Run Linter
+  ✓ Post Install Node.js
+  ✓ Post Checkout Repository
+  ✓ Complete job
+✓ Lint Python Files in 7s (ID 64105200275)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Set up Python
+  ✓ Install dependencies
+  ✓ Print working directory
+  ✓ Run Linter
+  ✓ Post Set up Python
+  ✓ Post Checkout Repository
+  ✓ Complete job
+
+For more information about a job, try: gh run view --job=<job-id>
+View this run on GitHub: https://github.com/phanminhtai1029/xrwvm-fullstack_developer_capstone/actions/runs/22169850865

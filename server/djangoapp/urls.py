@@ -26,6 +26,10 @@ urlpatterns = [
 
     # path for get_dealer_reviews
     path(route='get_reviews/<int:dealer_id>', view=views.get_dealer_reviews, name='get_dealer_reviews'),
+    path(route='reviews/dealer/<int:dealer_id>', view=views.get_dealer_reviews, name='get_dealer_reviews_alt'),
+
+    # path for get_dealer_details (alias used by Dealer.jsx)
+    path(route='dealer/<int:dealer_id>', view=views.get_dealer_details, name='get_dealer_details_alt'),
 
     # path for add_review
     path(route='add_review', view=views.add_review, name='add_review'),

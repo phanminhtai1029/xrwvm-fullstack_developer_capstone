@@ -1,0 +1,87 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%; padding: 2%;">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Reach out to us using any of the contact methods below.</p>
+
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+
+      <div class="card" style="width: 30%; min-width: 250px; padding: 1.5rem;">
+        <img class="card-img-top" src="/static/contactus.png" alt="Contact Us" style="width:80px; height:80px; margin: auto;">
+        <div class="card-body" style="text-align: center;">
+          <h4>Visit Us</h4>
+          <p>123 Dealership Ave<br>Detroit, MI 48201<br>United States</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%; min-width: 250px; padding: 1.5rem;">
+        <div class="card-body" style="text-align: center;">
+          <h4>Call Us</h4>
+          <p>Sales: +1 (800) 555-1234</p>
+          <p>Service: +1 (800) 555-5678</p>
+          <p>Monday – Saturday: 9am – 7pm</p>
+          <p>Sunday: 11am – 5pm</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%; min-width: 250px; padding: 1.5rem;">
+        <div class="card-body" style="text-align: center;">
+          <h4>Email Us</h4>
+          <p>Sales: sales@bestcars.com</p>
+          <p>Service: service@bestcars.com</p>
+          <p>General: info@bestcars.com</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 3rem;">
+      <h3>Send Us a Message</h3>
+      <form style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your full name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: darkturquoise; border-color: darkturquoise;">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
